@@ -1,5 +1,5 @@
 <?php
-include __DIR__ . '/classes/Movie.php';
+include __DIR__ . '/Models/Movie.php';
 
 $titolo = 'Echo with construct';
 echo $titolo;

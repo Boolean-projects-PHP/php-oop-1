@@ -1,8 +1,8 @@
 <?php
-include __DIR__ . '/classes/Movie.php';
-include __DIR__ . '/classes/Data.php';
+include __DIR__ . '/Models/Movie.php';
+include __DIR__ . '/Models/Data.php';
 
-$titolo = 'Echo with construct';
+$titolo = 'Echo with composition';
 echo $titolo;
 
 $filmData = new Data('15', 'febbraio', '1976');
